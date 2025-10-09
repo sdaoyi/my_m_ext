@@ -1,15 +1,15 @@
 [
   {
-    "name": "Tachiyomi: Baka Manhua",
-    "pkg": "eu.kanade.tachiyomi.extension.zh.bakamh",
-    "apk": "tachiyomi-zh.bakamh-v1.4.44.apk",
+    "name": "Tachiyomi: Rouman5",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.rouman5",
+    "apk": "tachiyomi-zh.rouman5-v1.4.1-release.apk",
     "lang": "zh",
-    "code": 44,
-    "version": "1.4.44",
+    "code": 7701,
+    "version": "1.4.1",
     "nsfw": 1,
     "sources": [
       {
-        "name": "巴卡漫画",
+        "name": "肉漫屋",
         "lang": "zh",
         "id": "3712194609356981776",
         "baseUrl": "https://bakamh.com",
