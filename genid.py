@@ -5,10 +5,10 @@ def main():
         data=json.load(f)
     for ext in data:
         pkg=ext["pkg"]
-        code=ext["code"]
+        # code=ext["code"]
         for s in ext["sources"]:
             lang=s["lang"]
-            genid=f"{pkg}:{code}:{lang}"
+            genid=f"{pkg}:{lang}"
             genid=hashlib.md5(genid.encode("utf-8")).hexdigest()
             genid=str(int(genid,16))[:19]
             s['id']=genid
